@@ -1,0 +1,12 @@
+#box1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45%;
+    height: 48vh;
+    left: 45%;
+    top: 18%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 2%;
+}
+

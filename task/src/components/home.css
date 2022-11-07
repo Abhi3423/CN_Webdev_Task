@@ -1,0 +1,34 @@
+#box3 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 75%;
+    bottom: 0.75%;
+    width: 100%;
+    height: 25vh;
+    background: #f2f2f2;
+}
+
+#circle {
+    position: absolute;
+    top: 42.54%;
+    bottom: 27.61%;
+    width: 4%;
+    height: 8vh;
+    background: #000000;
+    border-radius: 50%;
+}
+
+#content {
+    position: absolute;
+    left: 35.56%;
+    right: 35.49%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    text-align: center;
+
+    color: #000000;
+}
