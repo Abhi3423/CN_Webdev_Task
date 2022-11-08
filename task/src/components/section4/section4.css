@@ -1,0 +1,112 @@
+#s4box {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 30vw;
+    top: 221%;
+    background: #FFFFFF;
+}
+
+#s4box1 {
+    position: absolute;
+    height: 40vh;
+    width: 36%;
+    left: 10%;
+    top: 10vh;
+    border: none;
+}
+
+#s4head_content {
+    position: absolute;
+    width: 80%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+
+    color: #000000;
+}
+
+
+#s4content1 {
+    position: absolute;
+    top: 4vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    color: #000000;
+}
+
+#s4content2 {
+    position: absolute;
+    top: 14vw;
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+#s4dot {
+    position: absolute;
+    width: 4%;
+    height: 2vw;
+    border-radius: 50%;
+
+    top: 17vw;
+    background: #000000;
+}
+
+
+#s4content3 {
+    position: absolute;
+    top: 17vw;
+    left: 5%;
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+
+
+
+
+
+/***************** box 2 and box 3  *****************************/
+
+
+#s4box3 {
+    position: absolute;
+    width: 25%;
+    height: 16.14vw;
+    left: 53.75%;
+    top: 5vw;
+
+    background: #f2f2f2;
+}
+
+
+#s4box2 {
+    position: absolute;
+    width: 25%;
+    height: 16.14vw;
+    left: 48.06%;
+    top: 8vw;
+
+    background: #000000;
+}
+
+
+

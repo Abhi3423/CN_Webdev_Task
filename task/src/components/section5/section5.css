@@ -1,0 +1,152 @@
+#s5box {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 56vw;
+    top: 282%;
+    background: #ffff;
+}
+
+
+/******************************   BOX 1  **************************************/
+
+
+
+#s5box1 {
+
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.3%;
+    bottom: 47.67%;
+
+    background: #000000;
+}
+
+
+#s5box1content1 {
+
+    position: absolute;
+    left: 42.57%;
+    top: 15.58%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #FFFFFF;
+}
+
+
+#s5box1content2 {
+
+    position: absolute;
+    left: 42.57%;
+    top: 24.77%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.8vw;
+
+    color: #FFFCFC;
+}
+
+
+#s5box1content3 {
+    position: absolute;
+    left: 42.57%;
+    top: 78.6%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+
+    color: #FFFFFF;
+}
+
+
+
+/*********************************   BOX 11   ****************************************/
+
+
+#s5box11 {
+
+    position: absolute;
+    width: 35%;
+    height: 24vw;
+    background: #222222;
+}
+
+
+
+
+/*********************************   BOX 2 and 3   ****************************************/
+
+
+
+#s5box2 {
+    position: absolute;
+    left: 9.38%;
+    right: 51.04%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+    background: #F2F2F2;
+}
+
+#s5box2content1 {
+    position: absolute;
+    left: 12.71%;
+    top: 8.56%;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7vw;
+
+    color: #000000;
+}
+
+#s5box2content2 {
+    position: absolute;
+    width: 70%;
+    left: 12.71%;
+    top: 40.33%;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+
+    color: #000000;
+}
+
+#s5box2content3 {
+    position: absolute;
+    left: 12.71%;
+    top: 72.56%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000
+}
+
+
+#s5box3 {
+    position: absolute;
+    left: 51.04%;
+    right: 9.38%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+    background: #F2F2F2;
+}
