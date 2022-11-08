@@ -19,15 +19,15 @@
     border-radius: 50%;
 }
 
-#content {
+#foot_content {
     position: absolute;
-    left: 35.56%;
+    left: 20%;
     right: 35.49%;
-
+    width: 50%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 3vh;
+    font-size: 2vw;
     text-align: center;
 
     color: #000000;

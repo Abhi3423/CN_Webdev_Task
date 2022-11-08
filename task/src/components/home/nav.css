@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+}
+
+.navbar {
+    height: 6vh;
+    /* background-color: red; */
+}
+
+#head {
+    position: absolute;
+    left: -7%;
+    top: 5%;
+    width: 15%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#link {
+
+    position: absolute;
+    top: 15%;
+    width: 8%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+
+    color: #000000;
+}
+
+#signup {
+    box-sizing: border-box;
+    width: 7vw;
+    height: 5vh;
+    position: absolute;
+    text-align: center;
+    right: 3%;
+    top: 10%;
+    box-sizing: content-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#box2{
+   position:absolute;
+   height: 45vh;
+   width: 30%;
+   left: 10%;
+   top: 24vh;
+   /* border: 1px solid #000000; */
+}
+
+#head_content {
+    position: absolute;
+    width: 60%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+
+    color: #000000;
+}
+
+#content {
+    position: absolute;
+    top: 10vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    color: #000000;
+}
+
+#start {
+    position: absolute;
+  
+    top: 17.5vw;
+    background: #000000;
+    border-radius: 5px;
+
+    
+}
