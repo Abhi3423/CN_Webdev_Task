@@ -1,0 +1,178 @@
+#fbox {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    height: 25vw;
+    top: 530%;
+    background: #ffffff;
+}
+
+#fhead {
+    position: absolute;
+    left: 11.04%;
+    right: 87.01%;
+    top: 15.53%;
+    bottom: 78.16%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8vw;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+#fcontent1 {
+    position: absolute;
+    left: 20.49%;
+    right: 72.29%;
+    top: 17.89%;
+    bottom: 76.84%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+#fcontent2 {
+    position: absolute;
+    left: 20.49%;
+    right: 63.75%;
+    top: 27.11%;
+    bottom: 63.95%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    color: #000000;
+}
+
+#fcontent3 {
+
+    position: absolute;
+    left: 20.49%;
+    right: 54.82%;
+    top: 38.68%;
+    bottom: 40.53%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+#fline {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 7.89%;
+    bottom: 7.89%;
+
+    border: 1px solid #000000;
+}
+
+#fproducthead {
+
+    position: absolute;
+    left: 53.75%;
+    right: 42.78%;
+    top: 17.89%;
+    bottom: 76.84%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+#fproduct {
+    position: absolute;
+    left: 53.75%;
+    right: 42.85%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+#fcompanyhead {
+
+    position: absolute;
+    left: 64.93%;
+    right: 30.9%;
+    top: 17.89%;
+    bottom: 76.84%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+#fcompany {
+    position: absolute;
+    left: 64.93%;
+    right: 30.9%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+
+    color: #000000;
+}
+
+
+#fdate {
+    position: absolute;
+    left: 53.75%;
+    right: 39.58%;
+    top: 80.79%;
+    bottom: 13.95%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+#fprivacy {
+    position: absolute;
+    left: 61.53%;
+    right: 31.32%;
+    top: 80.79%;
+    bottom: 13.95%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+
+    color: #000000;
+}
