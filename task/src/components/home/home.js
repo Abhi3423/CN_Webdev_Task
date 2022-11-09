@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       <div>
-        
+        <div id="page1">
         <div className="navbar">
           <span id="head">CN RECRUITMENT</span>
           <a href="/" id="link" style={{ "left": "64.72%", "right": "31.94%" }}>Link 1</a>
@@ -53,7 +53,7 @@ function Home() {
 
 
         <div id="box3">
-          <p id="foot_content">Trusted by the World’s Best Companies</p>
+          <span id="foot_content">Trusted by the World’s Best Companies</span>
           <div id="circle" style={{ "left": "68.06%", "right": "26.39%" }}></div>
           <div id="circle" style={{ "left": "59.72%", "right": "34.72%" }}></div>
           <div id="circle" style={{ "left": "51.39%", "right": "43.06%" }}></div>
@@ -67,7 +67,7 @@ function Home() {
           <path className="a2" d="M0 20 L30 52 L60 20"></path>
           <path className="a3" d="M0 40 L30 72 L60 40"></path>
         </svg>
-
+        </div>
         <Section2></Section2>
         <Section3></Section3>
         <Section4></Section4>

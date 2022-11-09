@@ -7,7 +7,27 @@
     width: 100%;
     height: 25vh;
     background: #f2f2f2;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
 }
+
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+
+    35% {
+        transform: translate(0, 15px);
+    }
+
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
 
 #circle {
     position: absolute;
@@ -69,9 +89,7 @@
     }
 }
 
-@-webkit-keyframes arrow
-
-    {
+@-webkit-keyframes arrow {
     0% {
         opacity: 0
     }
@@ -92,17 +110,41 @@
 .arrows path.a1 {
     animation-delay: -1s;
     -webkit-animation-delay: -1s;
-   
+
 }
 
 .arrows path.a2 {
     animation-delay: -0.5s;
     -webkit-animation-delay: -0.5s;
-   
+
 }
 
 .arrows path.a3 {
     animation-delay: 0s;
     -webkit-animation-delay: 0s;
 
+}
+
+
+#page1 {
+    position: absolute;
+    top: -100vh;
+    height: 100vh;
+    width: 100%;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 9.2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 9.2s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        top: 0;
+    }
 }
