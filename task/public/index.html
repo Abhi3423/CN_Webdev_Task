@@ -35,6 +35,20 @@
         background: #0c0b0b; 
       }
       
+      h1, p { color: #ffffff; mix-blend-mode: exclusion; }
+
+      #cursor{
+        position:absolute;
+        transform:translate(-50%,-50%);
+        height:35px;
+        width:35px;
+        border-radius:50%;
+        border:2px solid black;
+        background: #ffffff;
+        mix-blend-mode: difference;
+        pointer-events: none;
+    }
+      
       </style>
     <title>CN RECRUITMENT</title>
   </head>
@@ -43,6 +57,7 @@
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" style="width: 100%"></div>
+    <div id="cursor"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -54,6 +69,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
+
+      let circle = document.getElementById('cursor');
+      const onMouseMove = (e) => {
+        circle.style.left = e.pageX + 'px';
+        circle.style.top = e.pageY + 'px';
+      }
+      document.addEventListener('mousemove', onMouseMove);
+
+
       var preloader = document.getElementById('loader');
       function preLoaderHandler(){
           preloader.style.display = 'none';
@@ -61,9 +85,9 @@
       const start = () => {
         setTimeout(function() {
           preLoaderHandler()
-         }, 15000); 
+         }, 9000); 
       }
-
+  
       start();
     </script>
   </body>

@@ -58,7 +58,7 @@
 
 #s2dot {
     position: absolute;
-    width: 4%;
+    width: 5.5%;
     height: 2vw;
     border-radius: 50%;
 
@@ -70,7 +70,7 @@
 #s2content3 {
     position: absolute;
     top: 17vw;
-    left: 5%;
+    left: 6.5%;
     width: 85%;
     font-family: 'Roboto';
     font-style: normal;
@@ -157,7 +157,7 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 5%;
+    width: 8%;
     height: 2vw;
     border-radius: 50%;
     left: 75%;

@@ -56,7 +56,7 @@
 
 #s3dot {
     position: absolute;
-    width: 4%;
+    width: 5.5%;
     height: 2vw;
     border-radius: 50%;
 
@@ -68,7 +68,7 @@
 #s3content3 {
     position: absolute;
     top: 17vw;
-    left: 5%;
+    left: 7%;
     width: 85%;
     font-family: 'Roboto';
     font-style: normal;
@@ -180,8 +180,8 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 3%;
-    height: 1.4vw;
+    width: 4.5%;
+    height: 1.6vw;
     border-radius: 50%;
     background: #000000;
     border: 2px solid #000000;
