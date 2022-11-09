@@ -11,7 +11,7 @@
 
 #s2box1 {
     position: absolute;
-    height: 40vh;
+    height: 20vw;
     width: 36%;
     left: 10%;
     top: 10vh;
@@ -135,8 +135,9 @@
     left: 20.7%;
     top: 7.3vw;
 
-    border-left: 0.2vw solid #FFFFFF;
-    border-top: 0.2vw solid #FFFFFF;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    background: #000000;
+    border: 0.2vw solid #ffffff;
 }
 
 

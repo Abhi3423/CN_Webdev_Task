@@ -10,3 +10,128 @@
     border-radius: 2%;
 }
 
+#box1dot1 {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 2%;
+    height: 1vw;
+    border-radius: 50%;
+
+    border: 1px solid #000000;
+}
+
+#box1squ {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 55%;
+    top: 3.5vw;
+
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+#box1tri1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 43%;
+    top: 8.55vw;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    border: 2px solid #000000;
+   
+}
+
+#box1tri2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 31.2%;
+    top: 13.7vw;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+
+#box1tri3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 54.9%;
+    top: 8.55vw;
+
+    clip-path: polygon(100% 100%,0% 100%, 0% 0%);
+    border: 2px solid #000000;
+
+}
+
+
+#box1circle1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 28%;
+    top: 4vw;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+
+#box1circle2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 45%;
+    top: 14vw;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+
+#box1dot2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 3%;
+    height: 1.4vw;
+    border-radius: 50%;
+    background: #000000;
+    border: 2px solid #000000;
+
+}
+
+
+#box1line1{
+
+    width: 0.2%;
+    height: 8vw;
+    margin-left: 49.5%;
+    margin-top: 7vw;
+    transform: rotate(45deg);
+    background: #000000;
+}
+
+
+#box1line2{
+
+    width: 0.2%;
+    height: 7.2vw;
+    margin-left: 61.14%;
+    margin-top: -7.45vw;
+    transform: rotate(135deg);
+    background: #000000;
+}

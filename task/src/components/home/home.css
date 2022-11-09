@@ -21,7 +21,7 @@
 
 #foot_content {
     position: absolute;
-    left: 20%;
+    left: 28%;
     right: 35.49%;
     width: 50%;
     font-family: 'Roboto';
@@ -31,4 +31,78 @@
     text-align: center;
 
     color: #000000;
+}
+
+
+.arrows {
+    width: 3.75%;
+    height: 4.68vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.8%;
+    bottom: 1.25%;
+}
+
+.arrows path {
+    stroke: #000000;
+    fill: transparent;
+    stroke-width: 0.1vw;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+
+    {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+   
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+   
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+
 }

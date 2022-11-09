@@ -1,10 +1,15 @@
 import React from 'react'
+import { useRef } from 'react';
 import './section2.css'
 
+export var ref;
+
 function Section2() {
+
+  ref = useRef(null);
   return (
     <>
-      <div id="box">
+      <div id="box" ref={ref}>
         <div id="s2box1">
           <p id="s2head_content">CN RECRUITMENT</p>
           <span id="s2content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>

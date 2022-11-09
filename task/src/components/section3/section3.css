@@ -79,72 +79,133 @@
 }
 
 
-#s3box2 {
-    position: absolute;
-    width: 25%;
-    height: 16.14vw;
-    left: 48.06%;
-    top: 8vw;
-
-    background: #000000;
-}
-
-
 
 /****************  All shapes triangle square and dot *******************/
 
 
-#s3squ {
+#s3box2 {
+
     box-sizing: border-box;
-
     position: absolute;
-    width: 20%;
-    height: 5.208vw;
-    left: 40.75%;
-    top: 2.1vw;
-
-    background: #FFFFFF;
-    border: 2px solid #FFFFFF;
-
-
-}
-
-#s3tri {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 20%;
-    height: 5.208vw;
-    left: 20.7%;
-    top: 7.3vw;
-
-    border-left: 0.2vw solid #FFFFFF;
-    border-top: 0.2vw solid #FFFFFF;
+    width: 45%;
+    height: 50vh;
+    left: 4%;
+    top: 12%;
+  
 }
 
 
-#s3line{
-
-    width: 0.7%;
-    height: 7vw;
-    margin-left: 20.8%;
-    margin-top: 5.5vw;
-    transform: rotate(44deg);
-    transform-origin: 80% 100%;
-    background: #FFFFFF;
-}
-
-
-#s3dot2 {
+#s3box2squ {
     box-sizing: border-box;
 
     position: absolute;
-    width: 5%;
-    height: 2vw;
+    width: 12%;
+    height: 5.2vw;
+    left: 55%;
+    top: 3.5vw;
+
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+#s3box2tri1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 43%;
+    top: 8.55vw;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    border: 2px solid #000000;
+   
+}
+
+#s3box2tri2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 31.2%;
+    top: 13.7vw;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+
+#s3box2tri3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 54.9%;
+    top: 8.55vw;
+
+    clip-path: polygon(100% 100%,0% 100%, 0% 0%);
+    border: 2px solid #000000;
+
+}
+
+
+#s3box2circle1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 28%;
+    top: 4vw;
     border-radius: 50%;
-    left: 75%;
-    top: 5.5vw;
+    border: 2px solid #000000;
+}
 
-    background: #FFFFFF;
-    border: 2px solid #FFFFFF;
+
+#s3box2circle2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 12%;
+    height: 5.2vw;
+    left: 45%;
+    top: 14vw;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+
+#s3box2dot2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 3%;
+    height: 1.4vw;
+    border-radius: 50%;
+    background: #000000;
+    border: 2px solid #000000;
+
+}
+
+
+#s3box2line1{
+
+    width: 0.2%;
+    height: 8vw;
+    margin-left: 49.5%;
+    margin-top: 7vw;
+    transform: rotate(45deg);
+    background: #000000;
+}
+
+
+#s3box2line2{
+
+    width: 0.2%;
+    height: 7.2vw;
+    margin-left: 61.14%;
+    margin-top: -7.45vw;
+    transform: rotate(135deg);
+    background: #000000;
 }

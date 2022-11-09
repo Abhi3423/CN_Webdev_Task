@@ -1,6 +1,3 @@
-body{
-    width: 100%;
-}
 
 .navbar {
     height: 6vh;
@@ -9,8 +6,8 @@ body{
 
 #head {
     position: absolute;
-    left: -7%;
-    top: 5%;
+    left: 2%;
+    top: 15%;
     width: 15%;
     font-family: 'Roboto';
     font-style: normal;
@@ -45,7 +42,7 @@ body{
     position: absolute;
     text-align: center;
     right: 3%;
-    top: 10%;
+    top: 15%;
     box-sizing: content-box;
     border: 1px solid #000000;
     border-radius: 5px;

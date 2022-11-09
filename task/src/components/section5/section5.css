@@ -82,6 +82,95 @@
 }
 
 
+#s5box11squ {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17%;
+    height: 5.2vw;
+    left: 50%;
+    top: 3.5vw;
+
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+#s5box11tri1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17%;
+    height: 5.2vw;
+    left: 33.3%;
+    top: 8.55vw;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+    border: 2px solid #ffffff;
+   
+}
+
+
+#s5box11tri3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17%;
+    height: 5.2vw;
+    left: 49.9%;
+    top: 8.55vw;
+
+    clip-path: polygon(100% 100%,0% 100%, 0% 0%);
+    border: 2px solid #ffffff;
+
+}
+
+
+#s5box11circle2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 14%;
+    height: 5.2vw;
+    left: 38%;
+    top: 14.5vw;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+
+#s5box11dot2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 3%;
+    height: 1.4vw;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+
+}
+
+
+#s5box11line1{
+
+    width: 0.3%;
+    height: 7.35vw;
+    margin-left: 42%;
+    margin-top: 7.31vw;
+    transform: rotate(43deg);
+    background: #ffffff;
+}
+
+
+#s5box11line2{
+
+    width: 0.3%;
+    height: 7.2vw;
+    margin-left: 58.14%;
+    margin-top: -7.1vw;
+    transform: rotate(136deg);
+    background: #ffffff;
+}
+
 
 
 /*********************************   BOX 2 and 3   ****************************************/

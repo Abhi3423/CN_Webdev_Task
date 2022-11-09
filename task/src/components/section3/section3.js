@@ -16,12 +16,18 @@ function section3() {
         </div>
 
     
-        {/* <div id="s3box2">
-          <div id="s3squ"></div>
-          <div id="s3tri"></div>
-          <div id="s3line"></div>
-          <div id="s3dot2"></div>
-        </div> */}
+        <div id="s3box2">
+          <div id="s3box2squ"></div>
+          <div id="s3box2tri1"></div>
+          <div id="s3box2tri2"></div>
+          <div id="s3box2tri3"></div>
+          <div id="s3box2circle1"></div>
+          <div id="s3box2circle2"></div>
+          <div id="s3box2dot2" style={{"left":"74%","top":"7vw"}}></div>
+          <div id="s3box2dot2" style={{"left":"21%","top":"13.5vw"}}></div>
+          <div id="s3box2line1"></div>
+          <div id="s3box2line2"></div>
+        </div>
       </div>
     </div>
     </>
