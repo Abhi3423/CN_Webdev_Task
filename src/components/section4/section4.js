@@ -8,7 +8,7 @@ function section4() {
     <div>
     <div id="s4box">
         <div id="s4box1">
-          <p id="s4head_content">CN RECRUITMENT</p>
+          <span id="s4head_content">CN RECRUITMENT</span>
           <span id="s4content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           <span id="s4content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           <div id="s4dot"></div>

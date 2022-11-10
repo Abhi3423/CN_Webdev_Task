@@ -8,7 +8,7 @@ function section3() {
     <div>
     <div id="s3box">
         <div id="s3box1">
-          <p id="s3head_content">CN RECRUITMENT</p>
+          <span id="s3head_content">CN RECRUITMENT</span>
           <span id="s3content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           <span id="s3content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           <div id="s3dot"></div>
