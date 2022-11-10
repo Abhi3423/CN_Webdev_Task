@@ -46,7 +46,7 @@ function Home() {
 
 
         <div id="box2">
-          <p id="head_content">CN RECRUITMENT</p>
+          <span id="head_content">CN RECRUITMENT</span>
           <span id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           <button type="button" id="start" href="/" className="btn btn-dark"><span style={{ "fontSize": "1vw" }}>Start free trial</span></button>
         </div>
